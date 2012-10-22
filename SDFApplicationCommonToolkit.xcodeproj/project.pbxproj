@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BB580791635CA7300F18A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580781635CA7300F18A62 /* Foundation.framework */; };
+		7BB5807E1635CA7300F18A62 /* SDFApplicationCommonToolkit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7BB5807D1635CA7300F18A62 /* SDFApplicationCommonToolkit.h */; };
+		7BB580801635CA7400F18A62 /* SDFApplicationCommonToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5807F1635CA7400F18A62 /* SDFApplicationCommonToolkit.m */; };
+		7BB580881635CA7400F18A62 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580871635CA7400F18A62 /* SenTestingKit.framework */; };
+		7BB5808A1635CA7400F18A62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580891635CA7400F18A62 /* UIKit.framework */; };
+		7BB5808B1635CA7400F18A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580781635CA7300F18A62 /* Foundation.framework */; };
+		7BB5808E1635CA7400F18A62 /* libSDFApplicationCommonToolkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580751635CA7300F18A62 /* libSDFApplicationCommonToolkit.a */; };
+		7BB580941635CA7400F18A62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BB580921635CA7400F18A62 /* InfoPlist.strings */; };
+		7BB580971635CA7400F18A62 /* SDFApplicationCommonToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580961635CA7400F18A62 /* SDFApplicationCommonToolkitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BB5808C1635CA7400F18A62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BB5806C1635CA7300F18A62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB580741635CA7300F18A62;
+			remoteInfo = SDFApplicationCommonToolkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BB580731635CA7300F18A62 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				7BB5807E1635CA7300F18A62 /* SDFApplicationCommonToolkit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7BB580751635CA7300F18A62 /* libSDFApplicationCommonToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDFApplicationCommonToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB580781635CA7300F18A62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BB5807C1635CA7300F18A62 /* SDFApplicationCommonToolkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDFApplicationCommonToolkit-Prefix.pch"; sourceTree = "<group>"; };
+		7BB5807D1635CA7300F18A62 /* SDFApplicationCommonToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDFApplicationCommonToolkit.h; sourceTree = "<group>"; };
+		7BB5807F1635CA7400F18A62 /* SDFApplicationCommonToolkit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDFApplicationCommonToolkit.m; sourceTree = "<group>"; };
+		7BB580861635CA7400F18A62 /* SDFApplicationCommonToolkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDFApplicationCommonToolkitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB580871635CA7400F18A62 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7BB580891635CA7400F18A62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7BB580911635CA7400F18A62 /* SDFApplicationCommonToolkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDFApplicationCommonToolkitTests-Info.plist"; sourceTree = "<group>"; };
+		7BB580931635CA7400F18A62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BB580951635CA7400F18A62 /* SDFApplicationCommonToolkitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDFApplicationCommonToolkitTests.h; sourceTree = "<group>"; };
+		7BB580961635CA7400F18A62 /* SDFApplicationCommonToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDFApplicationCommonToolkitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BB580721635CA7300F18A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB580791635CA7300F18A62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB580821635CA7400F18A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB580881635CA7400F18A62 /* SenTestingKit.framework in Frameworks */,
+				7BB5808A1635CA7400F18A62 /* UIKit.framework in Frameworks */,
+				7BB5808B1635CA7400F18A62 /* Foundation.framework in Frameworks */,
+				7BB5808E1635CA7400F18A62 /* libSDFApplicationCommonToolkit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB5806A1635CA7300F18A62 = {
+			isa = PBXGroup;
+			children = (
+				7BB5807A1635CA7300F18A62 /* SDFApplicationCommonToolkit */,
+				7BB5808F1635CA7400F18A62 /* SDFApplicationCommonToolkitTests */,
+				7BB580771635CA7300F18A62 /* Frameworks */,
+				7BB580761635CA7300F18A62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BB580761635CA7300F18A62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB580751635CA7300F18A62 /* libSDFApplicationCommonToolkit.a */,
+				7BB580861635CA7400F18A62 /* SDFApplicationCommonToolkitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BB580771635CA7300F18A62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BB580781635CA7300F18A62 /* Foundation.framework */,
+				7BB580871635CA7400F18A62 /* SenTestingKit.framework */,
+				7BB580891635CA7400F18A62 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BB5807A1635CA7300F18A62 /* SDFApplicationCommonToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				7BB5807D1635CA7300F18A62 /* SDFApplicationCommonToolkit.h */,
+				7BB5807F1635CA7400F18A62 /* SDFApplicationCommonToolkit.m */,
+				7BB5807B1635CA7300F18A62 /* Supporting Files */,
+			);
+			path = SDFApplicationCommonToolkit;
+			sourceTree = "<group>";
+		};
+		7BB5807B1635CA7300F18A62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB5807C1635CA7300F18A62 /* SDFApplicationCommonToolkit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BB5808F1635CA7400F18A62 /* SDFApplicationCommonToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB580951635CA7400F18A62 /* SDFApplicationCommonToolkitTests.h */,
+				7BB580961635CA7400F18A62 /* SDFApplicationCommonToolkitTests.m */,
+				7BB580901635CA7400F18A62 /* Supporting Files */,
+			);
+			path = SDFApplicationCommonToolkitTests;
+			sourceTree = "<group>";
+		};
+		7BB580901635CA7400F18A62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BB580911635CA7400F18A62 /* SDFApplicationCommonToolkitTests-Info.plist */,
+				7BB580921635CA7400F18A62 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BB580741635CA7300F18A62 /* SDFApplicationCommonToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB5809A1635CA7400F18A62 /* Build configuration list for PBXNativeTarget "SDFApplicationCommonToolkit" */;
+			buildPhases = (
+				7BB580711635CA7300F18A62 /* Sources */,
+				7BB580721635CA7300F18A62 /* Frameworks */,
+				7BB580731635CA7300F18A62 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDFApplicationCommonToolkit;
+			productName = SDFApplicationCommonToolkit;
+			productReference = 7BB580751635CA7300F18A62 /* libSDFApplicationCommonToolkit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7BB580851635CA7400F18A62 /* SDFApplicationCommonToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB5809D1635CA7400F18A62 /* Build configuration list for PBXNativeTarget "SDFApplicationCommonToolkitTests" */;
+			buildPhases = (
+				7BB580811635CA7400F18A62 /* Sources */,
+				7BB580821635CA7400F18A62 /* Frameworks */,
+				7BB580831635CA7400F18A62 /* Resources */,
+				7BB580841635CA7400F18A62 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB5808D1635CA7400F18A62 /* PBXTargetDependency */,
+			);
+			name = SDFApplicationCommonToolkitTests;
+			productName = SDFApplicationCommonToolkitTests;
+			productReference = 7BB580861635CA7400F18A62 /* SDFApplicationCommonToolkitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BB5806C1635CA7300F18A62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Maison de Freyssinet";
+			};
+			buildConfigurationList = 7BB5806F1635CA7300F18A62 /* Build configuration list for PBXProject "SDFApplicationCommonToolkit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BB5806A1635CA7300F18A62;
+			productRefGroup = 7BB580761635CA7300F18A62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BB580741635CA7300F18A62 /* SDFApplicationCommonToolkit */,
+				7BB580851635CA7400F18A62 /* SDFApplicationCommonToolkitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BB580831635CA7400F18A62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB580941635CA7400F18A62 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BB580841635CA7400F18A62 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BB580711635CA7300F18A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB580801635CA7400F18A62 /* SDFApplicationCommonToolkit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB580811635CA7400F18A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB580971635CA7400F18A62 /* SDFApplicationCommonToolkitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB5808D1635CA7400F18A62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BB580741635CA7300F18A62 /* SDFApplicationCommonToolkit */;
+			targetProxy = 7BB5808C1635CA7400F18A62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BB580921635CA7400F18A62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB580931635CA7400F18A62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BB580981635CA7400F18A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BB580991635CA7400F18A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB5809B1635CA7400F18A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SDFApplicationCommonToolkit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDFApplicationCommonToolkit/SDFApplicationCommonToolkit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7BB5809C1635CA7400F18A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SDFApplicationCommonToolkit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDFApplicationCommonToolkit/SDFApplicationCommonToolkit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7BB5809E1635CA7400F18A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDFApplicationCommonToolkit/SDFApplicationCommonToolkit-Prefix.pch";
+				INFOPLIST_FILE = "SDFApplicationCommonToolkitTests/SDFApplicationCommonToolkitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7BB5809F1635CA7400F18A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDFApplicationCommonToolkit/SDFApplicationCommonToolkit-Prefix.pch";
+				INFOPLIST_FILE = "SDFApplicationCommonToolkitTests/SDFApplicationCommonToolkitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BB5806F1635CA7300F18A62 /* Build configuration list for PBXProject "SDFApplicationCommonToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB580981635CA7400F18A62 /* Debug */,
+				7BB580991635CA7400F18A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB5809A1635CA7400F18A62 /* Build configuration list for PBXNativeTarget "SDFApplicationCommonToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB5809B1635CA7400F18A62 /* Debug */,
+				7BB5809C1635CA7400F18A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BB5809D1635CA7400F18A62 /* Build configuration list for PBXNativeTarget "SDFApplicationCommonToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB5809E1635CA7400F18A62 /* Debug */,
+				7BB5809F1635CA7400F18A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BB5806C1635CA7300F18A62 /* Project object */;
+}
