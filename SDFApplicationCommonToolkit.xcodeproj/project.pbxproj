@@ -25,6 +25,8 @@
 		7BB580C81635D63900F18A62 /* SDFACTBaseViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7BB580A21635CB1300F18A62 /* SDFACTBaseViewController.h */; };
 		7BB580CA1635D93700F18A62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580C91635D93700F18A62 /* UIKit.framework */; };
 		7BB580D61635E81100F18A62 /* SDFACTBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580D51635E81100F18A62 /* SDFACTBaseTableViewController.m */; };
+		7BB580D91635F0D500F18A62 /* SDFACTPagedScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580D81635F0D500F18A62 /* SDFACTPagedScrollViewTests.m */; };
+		7BB580DC1635F0E400F18A62 /* SDFACTPagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580DB1635F0E400F18A62 /* SDFACTPagedScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,10 @@
 		7BB580D31635DE0700F18A62 /* SDFApplicationCommonToolkitTests.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFApplicationCommonToolkitTests.pch; sourceTree = "<group>"; };
 		7BB580D41635E81100F18A62 /* SDFACTBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFACTBaseTableViewController.h; sourceTree = "<group>"; };
 		7BB580D51635E81100F18A62 /* SDFACTBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFACTBaseTableViewController.m; sourceTree = "<group>"; };
+		7BB580D71635F0D500F18A62 /* SDFACTPagedScrollViewTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFACTPagedScrollViewTests.h; sourceTree = "<group>"; };
+		7BB580D81635F0D500F18A62 /* SDFACTPagedScrollViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFACTPagedScrollViewTests.m; sourceTree = "<group>"; };
+		7BB580DA1635F0E400F18A62 /* SDFACTPagedScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFACTPagedScrollViewController.h; sourceTree = "<group>"; };
+		7BB580DB1635F0E400F18A62 /* SDFACTPagedScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFACTPagedScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +191,8 @@
 		7BB580A01635CAEB00F18A62 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7BB580DA1635F0E400F18A62 /* SDFACTPagedScrollViewController.h */,
+				7BB580DB1635F0E400F18A62 /* SDFACTPagedScrollViewController.m */,
 				7BB580D41635E81100F18A62 /* SDFACTBaseTableViewController.h */,
 				7BB580D51635E81100F18A62 /* SDFACTBaseTableViewController.m */,
 				7BB580A21635CB1300F18A62 /* SDFACTBaseViewController.h */,
@@ -196,6 +204,8 @@
 		7BB580A11635CAF700F18A62 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7BB580D71635F0D500F18A62 /* SDFACTPagedScrollViewTests.h */,
+				7BB580D81635F0D500F18A62 /* SDFACTPagedScrollViewTests.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -362,6 +372,7 @@
 				7BB580A81635CC0400F18A62 /* NSObject+ObserveNotifications.m in Sources */,
 				7BB580AC1635CC0E00F18A62 /* NSDate+UTCISO8601.m in Sources */,
 				7BB580D61635E81100F18A62 /* SDFACTBaseTableViewController.m in Sources */,
+				7BB580DC1635F0E400F18A62 /* SDFACTPagedScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +382,7 @@
 			files = (
 				7BB580BC1635CC2300F18A62 /* SDFACTNSDateUTCISO8601Tests.m in Sources */,
 				7BB580BD1635CC2300F18A62 /* NSObject+OberserveNotificationsTests.m in Sources */,
+				7BB580D91635F0D500F18A62 /* SDFACTPagedScrollViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

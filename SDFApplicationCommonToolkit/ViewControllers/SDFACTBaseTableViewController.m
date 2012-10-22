@@ -2,8 +2,8 @@
 //  SDFACTBaseTableViewController.m
 //  SDFApplicationCommonToolkit
 //
-//  Created by Sam de Freyssinet on 28/09/2012.
-//  Copyright (c) 2012 Sittercity, Inc. All rights reserved.
+//  Created by Sam de Freyssinet on 22/10/2012.
+//  Copyright (c) 2012 Maison de Freyssinet. All rights reserved.
 //
 
 #import "SDFACTBaseTableViewController.h"
