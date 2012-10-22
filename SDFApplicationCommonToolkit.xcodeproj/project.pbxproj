@@ -24,6 +24,7 @@
 		7BB580C71635D63900F18A62 /* NSObject+ObserveNotifications.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7BB580A61635CC0400F18A62 /* NSObject+ObserveNotifications.h */; };
 		7BB580C81635D63900F18A62 /* SDFACTBaseViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7BB580A21635CB1300F18A62 /* SDFACTBaseViewController.h */; };
 		7BB580CA1635D93700F18A62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580C91635D93700F18A62 /* UIKit.framework */; };
+		7BB580D61635E81100F18A62 /* SDFACTBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580D51635E81100F18A62 /* SDFACTBaseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		7BB580BB1635CC2300F18A62 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		7BB580C91635D93700F18A62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7BB580D31635DE0700F18A62 /* SDFApplicationCommonToolkitTests.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFApplicationCommonToolkitTests.pch; sourceTree = "<group>"; };
+		7BB580D41635E81100F18A62 /* SDFACTBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFACTBaseTableViewController.h; sourceTree = "<group>"; };
+		7BB580D51635E81100F18A62 /* SDFACTBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFACTBaseTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +185,8 @@
 		7BB580A01635CAEB00F18A62 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7BB580D41635E81100F18A62 /* SDFACTBaseTableViewController.h */,
+				7BB580D51635E81100F18A62 /* SDFACTBaseTableViewController.m */,
 				7BB580A21635CB1300F18A62 /* SDFACTBaseViewController.h */,
 				7BB580A31635CB1300F18A62 /* SDFACTBaseViewController.m */,
 			);
@@ -356,6 +361,7 @@
 				7BB580A41635CB1300F18A62 /* SDFACTBaseViewController.m in Sources */,
 				7BB580A81635CC0400F18A62 /* NSObject+ObserveNotifications.m in Sources */,
 				7BB580AC1635CC0E00F18A62 /* NSDate+UTCISO8601.m in Sources */,
+				7BB580D61635E81100F18A62 /* SDFACTBaseTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
