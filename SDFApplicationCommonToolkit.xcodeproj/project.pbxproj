@@ -11,11 +11,19 @@
 		7BB5807E1635CA7300F18A62 /* SDFApplicationCommonToolkit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7BB5807D1635CA7300F18A62 /* SDFApplicationCommonToolkit.h */; };
 		7BB580801635CA7400F18A62 /* SDFApplicationCommonToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB5807F1635CA7400F18A62 /* SDFApplicationCommonToolkit.m */; };
 		7BB580881635CA7400F18A62 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580871635CA7400F18A62 /* SenTestingKit.framework */; };
-		7BB5808A1635CA7400F18A62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580891635CA7400F18A62 /* UIKit.framework */; };
 		7BB5808B1635CA7400F18A62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580781635CA7300F18A62 /* Foundation.framework */; };
 		7BB5808E1635CA7400F18A62 /* libSDFApplicationCommonToolkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580751635CA7300F18A62 /* libSDFApplicationCommonToolkit.a */; };
 		7BB580941635CA7400F18A62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BB580921635CA7400F18A62 /* InfoPlist.strings */; };
-		7BB580971635CA7400F18A62 /* SDFApplicationCommonToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580961635CA7400F18A62 /* SDFApplicationCommonToolkitTests.m */; };
+		7BB580A41635CB1300F18A62 /* SDFACTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580A31635CB1300F18A62 /* SDFACTBaseViewController.m */; };
+		7BB580A81635CC0400F18A62 /* NSObject+ObserveNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580A71635CC0400F18A62 /* NSObject+ObserveNotifications.m */; };
+		7BB580AC1635CC0E00F18A62 /* NSDate+UTCISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580AB1635CC0E00F18A62 /* NSDate+UTCISO8601.m */; };
+		7BB580BC1635CC2300F18A62 /* SDFACTNSDateUTCISO8601Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580AF1635CC2300F18A62 /* SDFACTNSDateUTCISO8601Tests.m */; };
+		7BB580BD1635CC2300F18A62 /* NSObject+OberserveNotificationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB580B21635CC2300F18A62 /* NSObject+OberserveNotificationsTests.m */; };
+		7BB580BE1635CC2300F18A62 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580B41635CC2300F18A62 /* libOCMock.a */; };
+		7BB580C61635D63900F18A62 /* NSDate+UTCISO8601.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7BB580AA1635CC0E00F18A62 /* NSDate+UTCISO8601.h */; };
+		7BB580C71635D63900F18A62 /* NSObject+ObserveNotifications.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7BB580A61635CC0400F18A62 /* NSObject+ObserveNotifications.h */; };
+		7BB580C81635D63900F18A62 /* SDFACTBaseViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7BB580A21635CB1300F18A62 /* SDFACTBaseViewController.h */; };
+		7BB580CA1635D93700F18A62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB580C91635D93700F18A62 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,9 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				7BB580C61635D63900F18A62 /* NSDate+UTCISO8601.h in CopyFiles */,
+				7BB580C71635D63900F18A62 /* NSObject+ObserveNotifications.h in CopyFiles */,
+				7BB580C81635D63900F18A62 /* SDFACTBaseViewController.h in CopyFiles */,
 				7BB5807E1635CA7300F18A62 /* SDFApplicationCommonToolkit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,11 +60,27 @@
 		7BB5807F1635CA7400F18A62 /* SDFApplicationCommonToolkit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDFApplicationCommonToolkit.m; sourceTree = "<group>"; };
 		7BB580861635CA7400F18A62 /* SDFApplicationCommonToolkitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDFApplicationCommonToolkitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB580871635CA7400F18A62 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7BB580891635CA7400F18A62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7BB580911635CA7400F18A62 /* SDFApplicationCommonToolkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDFApplicationCommonToolkitTests-Info.plist"; sourceTree = "<group>"; };
 		7BB580931635CA7400F18A62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7BB580951635CA7400F18A62 /* SDFApplicationCommonToolkitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDFApplicationCommonToolkitTests.h; sourceTree = "<group>"; };
-		7BB580961635CA7400F18A62 /* SDFApplicationCommonToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDFApplicationCommonToolkitTests.m; sourceTree = "<group>"; };
+		7BB580A21635CB1300F18A62 /* SDFACTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFACTBaseViewController.h; sourceTree = "<group>"; };
+		7BB580A31635CB1300F18A62 /* SDFACTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFACTBaseViewController.m; sourceTree = "<group>"; };
+		7BB580A61635CC0400F18A62 /* NSObject+ObserveNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObserveNotifications.h"; sourceTree = "<group>"; };
+		7BB580A71635CC0400F18A62 /* NSObject+ObserveNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObserveNotifications.m"; sourceTree = "<group>"; };
+		7BB580AA1635CC0E00F18A62 /* NSDate+UTCISO8601.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+UTCISO8601.h"; sourceTree = "<group>"; };
+		7BB580AB1635CC0E00F18A62 /* NSDate+UTCISO8601.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+UTCISO8601.m"; sourceTree = "<group>"; };
+		7BB580AE1635CC2300F18A62 /* SDFACTNSDateUTCISO8601Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFACTNSDateUTCISO8601Tests.h; sourceTree = "<group>"; };
+		7BB580AF1635CC2300F18A62 /* SDFACTNSDateUTCISO8601Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDFACTNSDateUTCISO8601Tests.m; sourceTree = "<group>"; };
+		7BB580B11635CC2300F18A62 /* NSObject+OberserveNotificationsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OberserveNotificationsTests.h"; sourceTree = "<group>"; };
+		7BB580B21635CC2300F18A62 /* NSObject+OberserveNotificationsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OberserveNotificationsTests.m"; sourceTree = "<group>"; };
+		7BB580B41635CC2300F18A62 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		7BB580B61635CC2300F18A62 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		7BB580B71635CC2300F18A62 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		7BB580B81635CC2300F18A62 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		7BB580B91635CC2300F18A62 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		7BB580BA1635CC2300F18A62 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		7BB580BB1635CC2300F18A62 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		7BB580C91635D93700F18A62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BB580D31635DE0700F18A62 /* SDFApplicationCommonToolkitTests.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFApplicationCommonToolkitTests.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +97,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BB580881635CA7400F18A62 /* SenTestingKit.framework in Frameworks */,
-				7BB5808A1635CA7400F18A62 /* UIKit.framework in Frameworks */,
 				7BB5808B1635CA7400F18A62 /* Foundation.framework in Frameworks */,
+				7BB580CA1635D93700F18A62 /* UIKit.framework in Frameworks */,
 				7BB5808E1635CA7400F18A62 /* libSDFApplicationCommonToolkit.a in Frameworks */,
+				7BB580BE1635CC2300F18A62 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +129,9 @@
 		7BB580771635CA7300F18A62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7BB580C91635D93700F18A62 /* UIKit.framework */,
 				7BB580781635CA7300F18A62 /* Foundation.framework */,
 				7BB580871635CA7400F18A62 /* SenTestingKit.framework */,
-				7BB580891635CA7400F18A62 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +139,9 @@
 		7BB5807A1635CA7300F18A62 /* SDFApplicationCommonToolkit */ = {
 			isa = PBXGroup;
 			children = (
+				7BB580A91635CC0E00F18A62 /* NSDate+UTCISO8601 */,
+				7BB580A51635CC0400F18A62 /* NSObject+ObjectNotifications */,
+				7BB580A01635CAEB00F18A62 /* ViewControllers */,
 				7BB5807D1635CA7300F18A62 /* SDFApplicationCommonToolkit.h */,
 				7BB5807F1635CA7400F18A62 /* SDFApplicationCommonToolkit.m */,
 				7BB5807B1635CA7300F18A62 /* Supporting Files */,
@@ -129,8 +160,10 @@
 		7BB5808F1635CA7400F18A62 /* SDFApplicationCommonToolkitTests */ = {
 			isa = PBXGroup;
 			children = (
-				7BB580951635CA7400F18A62 /* SDFApplicationCommonToolkitTests.h */,
-				7BB580961635CA7400F18A62 /* SDFApplicationCommonToolkitTests.m */,
+				7BB580AD1635CC2300F18A62 /* NSDate+UTCISO8601 */,
+				7BB580B01635CC2300F18A62 /* NSObject+ObserveNotifications */,
+				7BB580B31635CC2300F18A62 /* OCMock */,
+				7BB580A11635CAF700F18A62 /* ViewControllers */,
 				7BB580901635CA7400F18A62 /* Supporting Files */,
 			);
 			path = SDFApplicationCommonToolkitTests;
@@ -141,8 +174,83 @@
 			children = (
 				7BB580911635CA7400F18A62 /* SDFApplicationCommonToolkitTests-Info.plist */,
 				7BB580921635CA7400F18A62 /* InfoPlist.strings */,
+				7BB580D31635DE0700F18A62 /* SDFApplicationCommonToolkitTests.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BB580A01635CAEB00F18A62 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7BB580A21635CB1300F18A62 /* SDFACTBaseViewController.h */,
+				7BB580A31635CB1300F18A62 /* SDFACTBaseViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7BB580A11635CAF700F18A62 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7BB580A51635CC0400F18A62 /* NSObject+ObjectNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				7BB580A61635CC0400F18A62 /* NSObject+ObserveNotifications.h */,
+				7BB580A71635CC0400F18A62 /* NSObject+ObserveNotifications.m */,
+			);
+			path = "NSObject+ObjectNotifications";
+			sourceTree = "<group>";
+		};
+		7BB580A91635CC0E00F18A62 /* NSDate+UTCISO8601 */ = {
+			isa = PBXGroup;
+			children = (
+				7BB580AA1635CC0E00F18A62 /* NSDate+UTCISO8601.h */,
+				7BB580AB1635CC0E00F18A62 /* NSDate+UTCISO8601.m */,
+			);
+			path = "NSDate+UTCISO8601";
+			sourceTree = "<group>";
+		};
+		7BB580AD1635CC2300F18A62 /* NSDate+UTCISO8601 */ = {
+			isa = PBXGroup;
+			children = (
+				7BB580AE1635CC2300F18A62 /* SDFACTNSDateUTCISO8601Tests.h */,
+				7BB580AF1635CC2300F18A62 /* SDFACTNSDateUTCISO8601Tests.m */,
+			);
+			path = "NSDate+UTCISO8601";
+			sourceTree = "<group>";
+		};
+		7BB580B01635CC2300F18A62 /* NSObject+ObserveNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				7BB580B11635CC2300F18A62 /* NSObject+OberserveNotificationsTests.h */,
+				7BB580B21635CC2300F18A62 /* NSObject+OberserveNotificationsTests.m */,
+			);
+			path = "NSObject+ObserveNotifications";
+			sourceTree = "<group>";
+		};
+		7BB580B31635CC2300F18A62 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				7BB580B41635CC2300F18A62 /* libOCMock.a */,
+				7BB580B51635CC2300F18A62 /* OCMock */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		7BB580B51635CC2300F18A62 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				7BB580B61635CC2300F18A62 /* NSNotificationCenter+OCMAdditions.h */,
+				7BB580B71635CC2300F18A62 /* OCMArg.h */,
+				7BB580B81635CC2300F18A62 /* OCMConstraint.h */,
+				7BB580B91635CC2300F18A62 /* OCMock.h */,
+				7BB580BA1635CC2300F18A62 /* OCMockObject.h */,
+				7BB580BB1635CC2300F18A62 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +298,7 @@
 		7BB5806C1635CA7300F18A62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SDF;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Maison de Freyssinet";
 			};
@@ -244,6 +353,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BB580801635CA7400F18A62 /* SDFApplicationCommonToolkit.m in Sources */,
+				7BB580A41635CB1300F18A62 /* SDFACTBaseViewController.m in Sources */,
+				7BB580A81635CC0400F18A62 /* NSObject+ObserveNotifications.m in Sources */,
+				7BB580AC1635CC0E00F18A62 /* NSDate+UTCISO8601.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +363,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BB580971635CA7400F18A62 /* SDFApplicationCommonToolkitTests.m in Sources */,
+				7BB580BC1635CC2300F18A62 /* SDFACTNSDateUTCISO8601Tests.m in Sources */,
+				7BB580BD1635CC2300F18A62 /* NSObject+OberserveNotificationsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +440,10 @@
 				DSTROOT = /tmp/SDFApplicationCommonToolkit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDFApplicationCommonToolkit/SDFApplicationCommonToolkit-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -339,7 +455,10 @@
 				DSTROOT = /tmp/SDFApplicationCommonToolkit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDFApplicationCommonToolkit/SDFApplicationCommonToolkit-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -353,9 +472,20 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SDFApplicationCommonToolkit/SDFApplicationCommonToolkit-Prefix.pch";
+				GCC_PREFIX_HEADER = SDFApplicationCommonToolkitTests/SDFApplicationCommonToolkitTests.pch;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/SDFApplicationCommonToolkitTests/OCMock/**";
 				INFOPLIST_FILE = "SDFApplicationCommonToolkitTests/SDFApplicationCommonToolkitTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/SDFApplicationCommonToolkitTests/OCMock/**",
+				);
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-force_load",
+					"${SRCROOT}/SDFApplicationCommonToolkitTests/OCMock/libOCMock.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -368,9 +498,20 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SDFApplicationCommonToolkit/SDFApplicationCommonToolkit-Prefix.pch";
+				GCC_PREFIX_HEADER = SDFApplicationCommonToolkitTests/SDFApplicationCommonToolkitTests.pch;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/SDFApplicationCommonToolkitTests/OCMock/**";
 				INFOPLIST_FILE = "SDFApplicationCommonToolkitTests/SDFApplicationCommonToolkitTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/SDFApplicationCommonToolkitTests/OCMock/**",
+				);
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-force_load",
+					"${SRCROOT}/SDFApplicationCommonToolkitTests/OCMock/libOCMock.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_AFTER_BUILD = NO;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
